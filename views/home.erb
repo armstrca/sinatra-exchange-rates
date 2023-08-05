@@ -1,0 +1,10 @@
+<!-- /views/home.erb -->
+
+
+<h1>Currency pairs</h1>
+<ul>
+  <% @levelone.each do |symbol, amount| %>
+    <li><a href="/<%=symbol%>">Convert 1 <%= symbol %> to...</li>
+  <% end %>
+</li>
+</ul>
