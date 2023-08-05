@@ -7,7 +7,7 @@ amounts_url = "https://api.exchangerate.host/latest"
 response_amounts = HTTP.get(amounts_url)
 response_symbols = HTTP.get(symbols_url)
 response_amounts_array = JSON.parse(response_amounts)
-@response_symbols_array = JSON.parse(response_symbols)
+response_symbols_array = JSON.parse(response_symbols)
 @levelone = response_amounts_array.fetch("rates")
 
 
