@@ -7,7 +7,7 @@ gem "sinatra"
 gem "sinatra-contrib"
 
 # Use Puma as the app server
-gem "puma", "~> 5.0"
+gem "puma", "~> 5.6"
 
 group :development do
   gem "better_errors"
